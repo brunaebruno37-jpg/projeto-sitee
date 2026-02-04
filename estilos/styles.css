@@ -6,10 +6,19 @@ body{
     background-color: rgb(176, 125, 224);
 
 }
+img.lado{
+    float: right;
+    width: 200px;
+    height: 100px;
+}
 main{
     background-color: white;
-    width: 500px;
+    width: 600px;
+    height: 700px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5)
+}
+a.Vo img{
+    width: 30px;
 }
