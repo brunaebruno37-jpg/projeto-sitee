@@ -3,34 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Listas</title>
 </head>
 <body>
-    <h1>Outras formatações</h1>
-    <h2>codigo fonte / Pré-formatação</h2>
-    <p>O comando <code>document.getElelmentById('teste')</code> é escrito em JavaScript</p>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
 
-    <pre>
-        <code>
-    num = int(input('Digite o numero que deseja: '))
-    if num % 2 == 0:
-        print(f'Esse numero é par')
-    else:
-        print(f'Esse numero é impar')
-    print('FIM DO CÓDIGO')
-        </code>
-    </pre>
+    <ol type="a" start="4">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Trabalhar</li>
+    </ol>
 
-    <h2>Citações</h2>
-    <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido</q></p>
+    <h2>Listas não Ordenadas</h2>
+    <ul type="circle">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Trabalhar</li> 
+    </ul>
 
-    <h2>Citações completas</h2>
-    <p>Segundo o site python 3.com</p>
-    <blockquote cite="https://pt.python-3.com/?p=3467">
-        Ao aprender uma nova linguagem de programação ou pilha de tecnologia, muitas vezes você ficará sobrecarregado com os bilhões de recursos - livros, cursos, tutoriais e muito mais - disponíveis para começar.
-    </blockquote>
-    
-    <h2>Abreviações</h2>
-    <p>Estou estudando <abbr title="HyperText Markup Language"> HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></p>
+    <h2>Linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+            <ul type="square">
+                <li>Delphi</li>
+                <li>Ruby</li>
+            </ul>
+        <li>Novas</li>
+            <ul type="disc">
+                <li>Python</li>
+                <li>PHP</li>
+                <li>JavaScript</li>
+            </ul>
+    </ol>
+
+    <h2>Lista de </h2>
+    <dt>HTML</dt>
+    <dd>Linguagem de marcação para criação de site</dd>
+    <dt>CSS</dt>
+    <dd>Linguagem de marcação para criação do Design do site</dd>
+    <dt>JavaScript</dt>
+    <dd>Linguagem de programação para criação de interatividade de um site</dd>
 </body>
 </html>
